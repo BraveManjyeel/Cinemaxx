@@ -1,7 +1,0 @@
-{
-  "/watch/movie/[slug]/page": "app/watch/movie/[slug]/page.js",
-  "/(front)/tv-shows/page": "app/(front)/tv-shows/page.js",
-  "/(front)/page": "app/(front)/page.js",
-  "/(front)/home/page": "app/(front)/home/page.js",
-  "/(front)/new-and-popular/page": "app/(front)/new-and-popular/page.js"
-}
