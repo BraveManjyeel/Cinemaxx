@@ -12,6 +12,7 @@ import { env } from '@/env.mjs';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from 'next/script';
+import AdInitializer from '@/components/Ads';
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -82,6 +83,9 @@ export default function RootLayout({
           fontSans.variable,
           fontHeading.variable,
         )}>
+
+        <AdInitializer />
+
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
